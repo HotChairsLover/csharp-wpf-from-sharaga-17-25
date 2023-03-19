@@ -1,0 +1,34 @@
+﻿<Page x:Class="ExpertSystems.Pages.Main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExpertSystems.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="410" d:DesignWidth="782"
+      Title="Main">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="114*"></RowDefinition>
+            <RowDefinition Height="91*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Background="#FF0097FF" Height="50" VerticalAlignment="Top">
+            <Label Content="Виды тренировок" FontSize="22" FontWeight="Bold" VerticalContentAlignment="Center" Margin="10,0,0,0" Foreground="White"></Label>
+        </Grid>
+        <Grid Margin="0,50,0,0" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="23*"></RowDefinition>
+                <RowDefinition Height="22*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="195*"></ColumnDefinition>
+                <ColumnDefinition Width="196*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="spineImg" MouseDown="SpineOpen" Margin="10,10,10,14" Stretch="UniformToFill"></Image>
+            <Image x:Name="tricepsImg" MouseDown="TricepsOpen" Margin="10,6,10,14" Stretch="UniformToFill" Grid.Row="1"></Image>
+            <Image x:Name="bicepsImg" MouseDown="BicepsOpen" Margin="12,10,10,14" Stretch="UniformToFill" Grid.Column="1"></Image>
+            <Image x:Name="calfMuscleImg" MouseDown="CalfMuscleOpen" Margin="12,6,10,14" Stretch="UniformToFill" Grid.Column="1" Grid.Row="1"></Image>
+        </Grid>
+    </Grid>
+</Page>

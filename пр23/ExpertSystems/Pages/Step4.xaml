@@ -1,0 +1,33 @@
+﻿<Page x:Class="ExpertSystems.Pages.Step4"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExpertSystems.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="410" d:DesignWidth="782"
+      Title="Step4">
+    <Page.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="White"></Setter>
+            <Setter Property="Foreground" Value="#FF0097FF"></Setter>
+            <Setter Property="BorderBrush" Value="White"></Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF0097FF"></Setter>
+                    <Setter Property="BorderBrush" Value="#FF0097FF"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+    <Grid Background="#FF0097FF">
+        <Label Content="Шаг №4" HorizontalAlignment="Center" Margin="326,64,298,288" VerticalAlignment="Center" Foreground="White" FontSize="36" FontWeight="Bold" Width="158"></Label>
+        <Label Content="Пожалуйста, укажите ваши параметры, чтобы мы более точно подготовили для вас программу тренировки:" HorizontalAlignment="Center" Margin="10,128,10,256" VerticalAlignment="Center" Foreground="White" Width="610"></Label>
+        <Label Content="Вес:" Margin="302,159,357,225" VerticalAlignment="Center" Foreground="White" Width="123"></Label>
+        <TextBox x:Name="weight" HorizontalAlignment="Center" Height="23" Margin="302,185,270,202" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="210"></TextBox>
+        <Label Content="Рост:" Margin="302,213,357,171" VerticalAlignment="Center" Foreground="White" Width="123"></Label>
+        <TextBox x:Name="growth" HorizontalAlignment="Center" Height="23" Margin="302,239,270,148" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="210"></TextBox>
+        <Button Click="NextStep" Content="Продолжить" HorizontalAlignment="Center" Margin="303,267,270,113" VerticalAlignment="Center" Width="209" Height="30"></Button>
+    </Grid>
+</Page>
