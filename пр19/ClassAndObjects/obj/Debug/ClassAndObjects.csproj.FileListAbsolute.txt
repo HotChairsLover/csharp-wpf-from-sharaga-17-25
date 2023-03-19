@@ -1,0 +1,14 @@
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\bin\Debug\ClassAndObjects.exe.config
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\bin\Debug\ClassAndObjects.exe
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\bin\Debug\ClassAndObjects.pdb
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\obj\Debug\ClassAndObjects.csprojAssemblyReference.cache
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\obj\Debug\MainWindow.g.cs
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\obj\Debug\App.g.cs
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\obj\Debug\ClassAndObjects_MarkupCompile.cache
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\obj\Debug\ClassAndObjects_MarkupCompile.lref
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\obj\Debug\MainWindow.baml
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\obj\Debug\ClassAndObjects.g.resources
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\obj\Debug\ClassAndObjects.Properties.Resources.resources
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\obj\Debug\ClassAndObjects.csproj.GenerateResource.cache
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\obj\Debug\ClassAndObjects.exe
+F:\Course_2\МДК05.02\пр19\ClassAndObjects\obj\Debug\ClassAndObjects.pdb
