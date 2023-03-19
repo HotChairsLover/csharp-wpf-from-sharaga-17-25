@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "moduleintegration2", "moduleintegration2\moduleintegration2.csproj", "{ACB7DC3A-71AA-475C-9FB6-A7D0E7D70F2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACB7DC3A-71AA-475C-9FB6-A7D0E7D70F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB7DC3A-71AA-475C-9FB6-A7D0E7D70F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB7DC3A-71AA-475C-9FB6-A7D0E7D70F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB7DC3A-71AA-475C-9FB6-A7D0E7D70F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD31A31F-E921-4A48-A97F-1F39C0D7B5E2}
+	EndGlobalSection
+EndGlobal
