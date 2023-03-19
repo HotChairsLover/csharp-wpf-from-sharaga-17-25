@@ -1,0 +1,28 @@
+﻿<Page x:Class="TextEditor.Main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TextEditor"
+      mc:Ignorable="d" 
+      d:DesignHeight="410" d:DesignWidth="782"
+      Title="Main">
+
+    <Grid Background="White">
+        <Button Content="Создать" Click="NewFile" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="130"></Button>
+        <Button Content="Открыть" Click="OpenFile" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="130"></Button>
+        <Label Content="Последние документы:" HorizontalAlignment="Left" Margin="145,8,0,0" VerticalAlignment="Top"></Label>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="145,37,10,10">
+            <ScrollViewer Margin="10">
+                <StackPanel x:Name="parrent">
+                    <Grid Height="50">
+                        <Image Width="30" Height="30" Margin="10,10,548,10"></Image>
+                        <Label Content="Наименование файла" HorizontalAlignment="Left" Margin="45,0,0,0"
+                               VerticalAlignment="Top" FontWeight="Bold"></Label>
+                        <Label Content="Расположение файла" HorizontalAlignment="Left" Margin="45,26,0,-2" VerticalAlignment="Top"></Label>
+                    </Grid>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</Page>
